@@ -12,7 +12,10 @@ body {
 }
 
 .logo img {
-  max-width: 200px;
+  width: 100px;       /* ancho */
+  height: 100px;      /* alto igual al ancho para que sea un círculo */
+  border-radius: 50%; /* hace que los bordes sean redondeados en forma de círculo */
+  background-color: #3498db; /* color de fondo para que se note */
 }
 
 h1, h2 {
